@@ -112,7 +112,7 @@ function display() {
 		}
 		//if(one.id === "23911A3565" && isPresent == false){
 		//	isPresent = !isPresent;
-		//	console.log("We Won");
+			console.log("We Won");
 		//}
 		if (isPresent) {
 			str1 += `${entry}, `;
