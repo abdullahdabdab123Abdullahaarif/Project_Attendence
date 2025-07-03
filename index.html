@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI II Attendance</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1 class="title">Attendance</h1>
+    <h3 id="section">AI</h3>
+    <div class="select-subject">
+        <label for="Section_Batch"><b>Select Section / Batch :</b></label>
+        <select id="Section_Batch">
+            <option value="AI">AI</option>
+            <option value="AI-A">AI-A</option>
+            <option value="AI-B">AI-B</option>
+            <!-- <option value="PBT">PBT</option> -->
+            <!-- <option value="SBT">SBT</option> -->
+        </select>
+    </div>
+    <div class="select-subject">
+        <label for="subject"><b>Select Class :</b></label>
+        <select id="subject">
+            <option value="" id="schedule"></option>
+            <option value="Optional Elective Class">OE</option>
+            <option value="Deep Learning Class">DL</option>
+            <option value="Robotics Class">Robotics</option>
+            <option value="Computer Networks Class">CN</option>
+            <option value="Data Science Class">DS</option>
+            <option value="Gender Sentsitization Class">GS</option>
+            <option value="Deep Learning Lab">DL LAB</option>
+            <option value="Robotics Lab">Robotics Lab</option>
+            <option value="Flutter Lab">Flutter Lab</option>
+            <option value="Tech Training">TT</option>
+            <option value="T&PA">T&PA</option>
+            <option value="Projects Class">Projects</option>
+            <option value="other">Others</option>
+        </select>
+    </div>
+    <div id="popup">
+        <label for="other">If Others : </label>
+        <input type="text" id="other" placeholder="Please Specify">
+    </div>
+    <div class="togg">
+        <input type="checkbox" class="switch" id="switch">
+        <label for="switch"></label>
+    </div>
+    <div class="data" id="data">
+        <!-- <div class="tab">
+            <p><span>Roll Number :</span> 20911A3594</p>
+            <p><span>Name :</span> Katta Ruthvik</p>
+            <p class="Attendance green" is-present="true">Present</p>
+        </div> -->
+    </div>
+
+    <div class="features">
+        <div class="container">
+            <label>Generate with Names:</label>
+            <label class="toggle-names-switch"><input class="toggle-names-switch-button" type="checkbox" />
+                <div></div>
+            </label>
+        </div>
+        <div class="top">
+            <label for="display">Details : </label>
+            <textarea id="display" readonly rows="17" cols="40"></textarea>
+            <div id="copy" class="copy">
+                <img src="https://img.icons8.com/material-outlined/48/null/copy.png" alt="" width="15px" />
+            </div>
+        </div>
+
+        <div class="buttons">
+            <button id="reset">Reset</button>
+            <button class="Whatsapp"><img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" width="30px"
+                    alt="" />WhatsApp</button>
+        </div>
+    </div>
+    <div class="developer-credit">Designed and developed by <span class="developer-name">Ruthvik Katta</span> and edited by <span class="developer-name">Abdullah Aarif</span></div>
+    <script type="module" src="./JavaScript/Script.js"></script>
+</body>
+
+</html>
