@@ -130,7 +130,7 @@ function display() {
 	const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
 	const currentDate = new Date().toLocaleDateString('en-US', options);
 
-	str += `${document.getElementById('section').innerText} ( II year ) Attendance \n`;
+	str += `${document.getElementById('section').innerText} ( III year ) Attendance \n`;
 
     str += `Presentees (${count1} Member${count1 === 1 ? '' : 's'})\n`;
     str += `${str1}\n\n`;
