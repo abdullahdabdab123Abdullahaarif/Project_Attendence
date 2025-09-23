@@ -110,10 +110,10 @@ function display() {
 		} else {
 			entry = `LE${one.id.substring(8, 10)}${haveName ? ` - ${name}` : ''}`;
 		}
-		if(one.id === "23911A35B7" && isPresent == false){
-			isPresent = !isPresent;
+		//if(one.id === "23911A35B7" && isPresent == false){
+			//isPresent = !isPresent;
 			//console.log("We Won");
-		}
+	 //}
 		if (isPresent) {
 			str1 += `${entry}, `;
 			count1++;
